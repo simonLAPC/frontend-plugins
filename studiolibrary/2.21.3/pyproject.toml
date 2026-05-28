@@ -1,0 +1,11 @@
+[project]
+name = "studiolibrary"
+version = "2.21.3"
+description = "Studio Library Plugin"
+keywords = ["maya", "plugin"]
+
+[project.urls]
+"Vendor Source" = "https://app.studiolibrary.com/api/download?filename=studiolibrary-2.21.3.zip"
+
+[tool.idea-boot]
+supported_apps = ["maya"]

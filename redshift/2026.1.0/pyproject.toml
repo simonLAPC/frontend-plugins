@@ -1,0 +1,26 @@
+[project]
+name = "redshift"
+version = "2026.1.0"
+description = "Environment variables for the local Redshift installation"
+keywords = ["maya", "rendering", "plugin"]
+
+[project.urls]
+"Vendor Source" = "https://www.maxon.net/en/downloads"
+"Internal Wiki" = "https://wiki.id3a.net.au/pipeline/plugins/redshift"
+
+[tool.idea-boot]
+# Strict validation: Only allow idea-boot to load this if the target app matches
+supported_apps = ["maya", "mayabatch"]
+
+[tool.idea-boot.env]
+REDSHIFT_COREDATAPATH = "C:/ProgramData/Redshift"
+PATH = "C:/ProgramData/Redshift/bin"
+MAYA_PLUG_IN_PATH = "C:/ProgramData/Redshift/Plugins/Maya/2024/nt-x86-64"
+MAYA_SCRIPT_PATH = "C:/ProgramData/Redshift/Plugins/Maya/Common/scripts"
+PYTHONPATH = "C:/ProgramData/Redshift/Plugins/Maya/Common/scripts"
+XBMLANGPATH = "C:/ProgramData/Redshift/Plugins/Maya/Common/icons"
+MAYA_RENDER_DESC_PATH = "C:/ProgramData/Redshift/Plugins/Maya/Common/rendererDesc"
+MAYA_CUSTOM_TEMPLATE_PATH = "C:/ProgramData/Redshift/Plugins/Maya/Common/scripts/NETemplates"
+REDSHIFT_MAYAEXTENSIONSPATH = "C:/ProgramData/Redshift/Plugins/Maya/2024/nt-x86-64/extensions"
+REDSHIFT_TEXTURECACHEBUDGET = "64"
+REDSHIFT_PROCEDURALSPATH = "C:/ProgramData/Redshift/Procedurals"

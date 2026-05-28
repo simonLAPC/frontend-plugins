@@ -1,0 +1,11 @@
+[project]
+name = "dwpicker"
+version = "1.0.4"
+description = "DreamWall Picker"
+keywords = ["maya", "plugin"]
+
+[project.urls]
+"Vendor Source" = "https://github.com/DreamWall-Animation/dwpicker/archive/refs/tags/1.0.4-2025.04.0.4.zip"
+
+[tool.idea-boot]
+supported_apps = ["maya"]

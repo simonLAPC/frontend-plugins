@@ -1,0 +1,11 @@
+[project]
+name = "advancedskeleton"
+version = "6.6.71"
+description = "Advanced Skeleton"
+keywords = ["maya", "plugin"]
+
+[project.urls]
+"Vendor Source" = "https://animationstudios.com.au/download/AdvancedSkeleton/AdvancedSkeleton_v6.671/AdvancedSkeleton.zip"
+
+[tool.idea-boot]
+supported_apps = ["maya","mayabatch"]

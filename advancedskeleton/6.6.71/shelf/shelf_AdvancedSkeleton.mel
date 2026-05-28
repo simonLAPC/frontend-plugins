@@ -1,0 +1,25 @@
+global proc shelf_AdvancedSkeleton () {
+    global string $gBuffStr;
+    global string $gBuffStr0;
+    global string $gBuffStr1;
+
+    shelfButton
+        -label "AdvancedSkeleton" -annotation "AdvancedSkeleton"
+        -image "AS.png" -style "iconOnly"
+        -command "AdvancedSkeleton;" -sourceType "mel";
+
+    shelfButton
+        -label "Selector:biped" -annotation "Selector:biped"
+        -image "asBiped.png" -style "iconOnly"
+        -command "source \"AdvancedSkeletonFiles/Selector/biped.mel\";" -sourceType "mel";
+
+    shelfButton
+        -label "Selector:face" -annotation "Selector:face"
+        -image "asFace.png" -style "iconOnly"
+        -command "source \"AdvancedSkeletonFiles/Selector/face.mel\";" -sourceType "mel";
+
+    shelfButton
+        -label "picker" -annotation "picker"
+        -image "picker.png" -style "iconOnly"
+        -command "source \"AdvancedSkeletonFiles/picker/picker.mel\";" -sourceType "mel";
+}
