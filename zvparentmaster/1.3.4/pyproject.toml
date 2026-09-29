@@ -1,0 +1,11 @@
+[project]
+name = "zvparentmaster"
+version = "1.3.4"
+description = "ZV Parent Master"
+keywords = ["maya", "plugin"]
+
+[project.urls]
+"Vendor Source" = "https://paolodominici.com/products/zvparentmaster/"
+
+[tool.idea-boot]
+supported_apps = ["maya"]

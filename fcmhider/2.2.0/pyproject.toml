@@ -1,0 +1,12 @@
+[project]
+name = "fcmhider"
+version = "2.2.0"
+description = "FCM Hider"
+keywords = ["maya", "plugin"]
+
+[project.urls]
+"Vendor Source" = "X:/id3a/pipeline/frontend-next/prod/plugins/fcmhider/2.2.0"
+"Wiki Source" = "https://francerchiara.gumroad.com/l/FCM_Hider"
+
+[tool.idea-boot]
+supported_apps = ["maya"]

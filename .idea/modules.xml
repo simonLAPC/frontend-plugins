@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/advancedskeleton.iml" filepath="$PROJECT_DIR$/.idea/advancedskeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dwpicker.iml" filepath="$PROJECT_DIR$/.idea/dwpicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fcmhider.iml" filepath="$PROJECT_DIR$/.idea/fcmhider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/frontend-plugins-simon.iml" filepath="$PROJECT_DIR$/.idea/frontend-plugins-simon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ngskintoolsv2.iml" filepath="$PROJECT_DIR$/.idea/ngskintoolsv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/redshift.iml" filepath="$PROJECT_DIR$/.idea/redshift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/studiolibrary.iml" filepath="$PROJECT_DIR$/.idea/studiolibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zvparentmaster.iml" filepath="$PROJECT_DIR$/.idea/zvparentmaster.iml" />
+    </modules>
+  </component>
+</project>

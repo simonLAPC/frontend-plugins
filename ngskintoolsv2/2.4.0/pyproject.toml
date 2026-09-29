@@ -1,0 +1,11 @@
+[project]
+name = "ngskintoolsv2"
+version = "2.4.0"
+description = "ngSkinTools v2"
+keywords = ["maya", "assets", "plugin"]
+
+[project.urls]
+"Vendor Source" = "https://download.ngskintools.com/ngskintools-2.4.0-windows.zip"
+
+[tool.idea-boot]
+supported_apps = ["maya"]
